@@ -93,11 +93,71 @@ di = {1:2,
       'b':2}
 
 
-print(di.keys())
-print(di.values())
-print(di.items())
+# print(di.keys())
+# print(di.values())
+# print(di.items())
 
 di[1] = 10
-print(di)
+# print(di)
+
+# # -------------------------------------------------------------
+# # Reserved keyword
+# there are some keyword which have some meaning and are interpreted as they are doing some task
+
+# print, import, if, else, elif, try, except, break, continue, 
+
+# H/w: how many reserved keywords are there in python? -- 16/11/22
+
 
 # -------------------------------------------------------------
+
+#CONDITIONAL STATEMENT IN PYTHON
+# THEY CONTROL THE FLOW OF THE CODE, LIKE:-
+# 1. IF, ELSE, ELIF
+
+# if (condtion):
+#     STATEMENT
+# elif condition2:
+#     STATMENT 3
+# else:
+#     STATEMENT 2
+
+
+# a = 3
+# b = 3
+
+# if a == b:
+#     print('Both the numbers are same.')
+# elif a>b:
+#     print('a is greater')
+# else:
+#     print('b is greater')
+
+
+# H. W - Write a program to find greatest of3 numbers.
+a = 3
+b = 1
+c = 2
+
+if a>b and a>c:
+    print('a is greatest')
+elif b>a and b>c:
+    print('b is greatest')
+elif c>a and c>b:
+    print('c is greatest')
+else:
+    print('numbers are equal.')
+
+
+# ----------------------------------------------------------
+# LOGICAL OPERATORS in python
+# 1. or - checks if any one condition is correct.
+# 2. and - checks if all conditions are correct.
+
+if a==b or c==b:
+    print('2 number are equal')
+else:
+    print('Blabla')
+    
+    
+# ------------------------------------------------------------
