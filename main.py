@@ -161,3 +161,69 @@ else:
     
     
 # ------------------------------------------------------------
+
+# LOOP - Loop is basically a control flow statrement in python which transfers the control of the code from one statement 
+# to other
+
+
+# 1. for - for loop is generally used when we have to loop over a specific ranges of values
+# 2. while - is generally used until a condition is met
+
+
+l = [1,2,3,4,5,6]
+
+# for i in l:
+#     print(i)
+    
+n = len(l)
+print(n)
+
+for i in range(n):
+    # print(i)
+    print(l[i])
+    
+    
+# for k in range(10):
+#     print(k)
+
+# H.W. - how to run a for loop on a list to print reverse list
+# --------------------------------------------------------------------
+
+# WHILE LOOP
+# a = 2
+# b = 0
+
+# while a>=b:
+#     print(a, b)
+#     b+=1 #b = b+!
+
+# -------------------------------------------------------------------------
+# OPERATORS IN PYTHON
+# the algebric operators that we used in maths
+# + --> addtion
+# - --> sub
+# * --> mul
+# / --> division (float)
+# // --> division integer
+# % --> reminder from division
+
+
+# print(3%2)
+
+# -----------------------------------------------------------------------------
+# FUNCTIONS - functins are nothing but resuable piece of code which we can define and call whenever we need
+
+
+
+# def function_name(arg1, arg2, ....., argn):
+#     statements
+
+
+def mul(a, b):
+    print(a*b)
+
+
+mul(1, 3)
+
+# h.w --> create a function for all the arithematic operators in python and use 3 argumnets
+    
